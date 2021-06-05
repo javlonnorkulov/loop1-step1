@@ -28,24 +28,28 @@ body{
 	text-align: center;
 	list-style-type: none;
 	padding:20px 25px;
-	 color: #555;
+	
 }
 .list-item:hover{
 	background-color:#eee;
 	border-radius: 10px; 
 }
-.list-item a{
+.list-item-link{
 	text-decoration: none;
-	
 }
-/*.list-item p{
-    color: #555;*/
-}
-.list-item h3{
+.list-item-title{
+	text-transform: uppercase;
 	color:rgb(89, 125, 184);
-
 }
+.list-item-subtitle{
+	margin-top: 10px;
+	color: #555;
+	font-size: 14px;
+}
+
+
 .price{
+	margin-top: 10px;
 	color:rgb(89, 125, 184);
 	font-weight: bold;
 	font-size: 30px;
